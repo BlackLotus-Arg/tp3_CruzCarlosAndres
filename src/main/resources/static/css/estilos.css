@@ -1,0 +1,109 @@
+:root{
+	--primario:rgb(29, 43, 107);	
+	--secundario:rgb(48, 70, 175);
+	--terciario:rgb(101, 121, 214);
+}
+
+*{
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin:0;
+}
+
+#header{
+	font-size: 2rem;
+	background-color: var(--secundario);
+	color: white;
+	padding: 1rem;
+	text-align: center;
+}
+
+.footer{
+	font-size: 1rem;
+	background-color: var(--primario);
+	padding: 1rem;
+	text-align: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.form-subgroup{
+	
+}
+
+.btn-submit{
+	background-color: var(--secundario);
+	font-size: 1rem;
+	color: white;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.nav{
+	background-color: var(--primario);
+	padding: 10px;
+	border-bottom: 1px solid var(--terciario);
+}
+
+.navlink{
+	text-decoration: none;
+	color:white;
+	
+}
+
+.navlink:hover{
+	padding:10px;
+	border-bottom: solid 3px var(--terciario);
+}
+
+.principal{
+	display:flex;
+}
+
+.logo{
+	width: 150px;
+}
+
+.side{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.lista{
+	text-decoration: none;
+	margin:0;
+	padding: 0;
+}
+
+
+.seccion{
+	display: flex;
+	flex-direction: column;
+	
+	
+	margin:30px 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+ th, td {
+border: 1px solid;
+}
+
+h2{
+	background-color: var(--terciario);
+	width: 100%;
+
+}
+
+h3{
+	margin: 5px 0
+}
